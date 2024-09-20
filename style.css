@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+
+.page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flexdiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    margin-right: 7rem;
+}
+
+.name .logo {
+    font-size: 3.75rem;
+    color: rgb(30, 109, 255);
+}
+
+.name p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem;
+    width: 540px;
+    height: 360px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form input {
+    outline: none;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+form input:focus {
+    border: 1.8px solid rgb(41, 116, 255);
+}
+
+form .login {
+    outline: none;
+    border: none;
+    background: rgb(58, 127, 255);
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+form .login:hover {
+    background: rgb(94, 158, 255);
+    cursor: pointer;
+}
+
+form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    color: rgb(47, 120, 255);
+}
+
+form hr {
+    background: rgb(223, 223, 223);
+    margin: 1rem;
+}
+
+form .create-account {
+    outline: none;
+    border: none;
+    background: rgb(2, 201, 12);
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+}
+
+form .create-account:hover {
+    background: rgb(29, 218, 23);
+    cursor: pointer;
+}
+
+@media (min-width: 240px) and (max-width: 1200px) {
+    * {
+        font-size: 60%;
+    }
+
+    .name {
+        margin: 0;
+        text-align: center;
+    }
+
+    form {
+        width: 300px;
+        height: fit-content;
+    }
+
+    form input {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    form .login {
+        font-size: 1.2rem;
+    }
+
+    form a {
+        font-size: 1.2rem;
+    }
+
+    form .create-account {
+        font-size: 1.2rem;
+    }
+
+    .flexdiv {
+        display: flex;
+        flex-direction: column;
+    }
+    @media (orientation: landscape) and (max-height: 500px) {
+        .header {
+        height: 90vmax;
+        }
+    }  
+}
