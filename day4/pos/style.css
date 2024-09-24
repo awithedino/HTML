@@ -1,0 +1,52 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1
+{
+    margin: 0 0 15px;
+}
+h2
+{
+    color:rgb(65, 137, 225);
+    background-color:rgb(151, 196, 222);
+    padding: 2px;
+}
+.UID
+{
+    color: rgb(65, 137, 225);
+}
+img
+{
+    float: right;
+}
+table, th, td
+{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    font-weight: 700;
+    padding: 3px 4px;
+}
+.grey, .grey1
+{
+    background-color: #eaeaea;
+}
+.grey1
+{
+    color: rgb(65, 137, 225);
+}
+.firstcol
+{
+    color: rgb(65, 137, 225);
+}
+form
+{
+    line-height: 1.5;
+}
+button
+{
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    border: 1px solid;
+}
