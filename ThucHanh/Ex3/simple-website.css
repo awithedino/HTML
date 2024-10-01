@@ -44,9 +44,9 @@ header p
 footer
 {
     background-color: #444;
-}
-footer p
-{
     color: #ffffff;
     text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
