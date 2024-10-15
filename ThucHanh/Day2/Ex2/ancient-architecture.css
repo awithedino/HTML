@@ -111,6 +111,12 @@ article p span
     text-transform: uppercase;
 }
 
+article:nth-child(2)>p+p>span
+{
+    position: relative;
+    top: 19px;
+}
+
 footer
 {
     margin: 0px;
